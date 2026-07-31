@@ -1,6 +1,6 @@
 {
-  "buildCommand": "pnpm run build-prod",
-  "outputDirectory": "packages/lexical-playground/dist",
+  "buildCommand": "pnpm --filter lexical-playground run build-vercel",
+  "outputDirectory": "packages/lexical-playground/build",
   "installCommand": "pnpm install --frozen-lockfile",
   "framework": "vite"
 }
