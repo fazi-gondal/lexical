@@ -1,0 +1,6 @@
+{
+  "buildCommand": "pnpm run build-prod",
+  "outputDirectory": "packages/lexical-playground/dist",
+  "installCommand": "pnpm install --frozen-lockfile",
+  "framework": "vite"
+}
