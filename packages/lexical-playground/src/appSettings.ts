@@ -13,9 +13,9 @@ export const isDevPlayground: boolean =
 
 export const DEFAULT_SETTINGS = {
   emptyEditor: isDevPlayground,
-  hasFitNestedTables: false,
-  hasLinkAttributes: false,
-  hasNestedTables: false,
+  hasFitNestedTables: true,
+  hasLinkAttributes: true,
+  hasNestedTables: true,
   isAutocomplete: false,
   isCharLimit: false,
   isCharLimitUtf8: false,
@@ -32,7 +32,7 @@ export const DEFAULT_SETTINGS = {
   selectionAlwaysOnDisplay: false,
   shouldAllowHighlightingWithBrackets: false,
   shouldDisableFocusOnClickChecklist: false,
-  shouldPreserveNewLinesInMarkdown: true,
+  shouldPreserveNewLinesInMarkdown: false,
   shouldUseLexicalContextMenu: true,
   showNestedEditorTreeView: false,
   showTableOfContents: false,
