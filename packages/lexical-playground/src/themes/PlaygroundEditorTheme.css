@@ -24,20 +24,39 @@
   padding-left: 16px;
 }
 .PlaygroundEditorTheme__h1 {
-  font-size: 24px;
+  font-size: 32px;
   color: rgb(5, 5, 5);
-  font-weight: 400;
+  font-weight: 700;
   margin: 0;
 }
 .PlaygroundEditorTheme__h2 {
-  font-size: 16px;
-  color: rgb(101, 103, 107);
+  font-size: 24px;
+  color: rgb(5, 5, 5);
   font-weight: 700;
   margin: 0;
-  text-transform: uppercase;
 }
 .PlaygroundEditorTheme__h3 {
-  font-size: 12px;
+  font-size: 20px;
+  color: rgb(5, 5, 5);
+  font-weight: 600;
+  margin: 0;
+}
+.PlaygroundEditorTheme__h4 {
+  font-size: 17px;
+  color: rgb(5, 5, 5);
+  font-weight: 600;
+  margin: 0;
+}
+.PlaygroundEditorTheme__h5 {
+  font-size: 15px;
+  color: rgb(101, 103, 107);
+  font-weight: 600;
+  margin: 0;
+}
+.PlaygroundEditorTheme__h6 {
+  font-size: 13px;
+  color: rgb(101, 103, 107);
+  font-weight: 600;
   margin: 0;
   text-transform: uppercase;
 }
