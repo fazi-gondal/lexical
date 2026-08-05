@@ -59,3 +59,4 @@ dist-size/
 packages/lexical-website/static/dev-examples/
 
 .vercel
+.github
